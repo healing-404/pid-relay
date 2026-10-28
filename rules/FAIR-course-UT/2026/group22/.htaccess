@@ -1,0 +1,18 @@
+
+RewriteEngine on
+
+# FAIRified RDF data
+RewriteRule ^data/?$ https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_fairified.ttl [R=303,L]
+
+# Water-body ontology
+RewriteRule ^ont/?$ https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_ontology.ttl [R=303,L]
+
+# Dataset metadata
+RewriteRule ^dataset/waterbodies/?$ https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_metadata.ttl [R=303,L]
+
+# Distribution metadata
+RewriteRule ^distribution/waterbodies-rdf/?$ https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_metadata.ttl [R=303,L]
+RewriteRule ^distribution/waterbodies-csv/?$ https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_metadata.ttl [R=303,L]
+
+# Group information
+RewriteRule ^agent/group22/?$ https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_metadata.ttl [R=303,L]
