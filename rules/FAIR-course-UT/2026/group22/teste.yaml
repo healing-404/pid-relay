@@ -1,0 +1,25 @@
+# Group 22 W3ID redirect tests
+tests:
+  - pid: https://w3id.org/FAIR-course-UT/2026/group22/data
+    status: 303
+    location: https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_fairified.ttl
+
+  - pid: https://w3id.org/FAIR-course-UT/2026/group22/ont
+    status: 303
+    location: https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_ontology.ttl
+
+  - pid: https://w3id.org/FAIR-course-UT/2026/group22/dataset/waterbodies
+    status: 303
+    location: https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_metadata.ttl
+
+  - pid: https://w3id.org/FAIR-course-UT/2026/group22/distribution/waterbodies-rdf
+    status: 303
+    location: https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_metadata.ttl
+
+  - pid: https://w3id.org/FAIR-course-UT/2026/group22/distribution/waterbodies-csv
+    status: 303
+    location: https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_metadata.ttl
+
+  - pid: https://w3id.org/FAIR-course-UT/2026/group22/agent/group22
+    status: 303
+    location: https://raw.githubusercontent.com/healing-404/fair-waterbodies-group22/main/waterbodies_metadata.ttl
